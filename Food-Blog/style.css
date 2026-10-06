@@ -1,0 +1,191 @@
+
+
+
+
+
+#main-title{
+
+ font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+p{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.title{
+
+ color: blue;
+
+
+}
+
+
+
+#logo{
+
+ width: 15vw;
+
+ height: 20vh;
+ 
+
+}
+
+
+#header{
+
+ background-color: aliceblue
+
+}
+
+
+h1{
+
+ display: flex;
+
+ justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+article{
+
+ width: 40vw;
+
+ min-height: 50vh;
+
+
+}
+
+
+.article-image{
+
+
+ width: 25vw;
+ 
+ height: 50vh;
+
+}
+
+.article-link{
+
+ background-color: aquamarine;
+
+
+}
+
+.article-link:hover{
+
+
+ background-color: blueviolet;
+
+}
+
+
+
+main{
+
+
+ background-image: url(./media/Sfondo.jpg);
+
+ background-repeat: no-repeat;
+
+ background-position: center;
+
+ background-size: cover;
+
+
+}
+
+
+nav{
+
+
+ display: flex;
+
+ justify-content: start;
+
+}
+
+.nav-links{
+
+ display: flex;
+
+ justify-content: start;
+
+ gap: 50px;
+
+ list-style: none;
+
+ align-items: center;
+
+
+
+}
+
+
+.nav-links a{
+
+
+ color: black;
+
+ text-decoration: none;
+
+
+}
+
+
+.nav-links a:hover{
+
+
+ border-bottom: 2px solid black;
+
+
+}
+
+
+
+section{
+
+
+ display: flex;
+
+ justify-content: space-between;
+
+ gap: 20px;
+
+
+ flex-wrap: wrap;
+
+
+
+}
+
+
+
+
+
+
+
+footer ul{
+
+
+ list-style: none;
+
+ display: flex;
+
+  gap: 20px;
+
+
+}
